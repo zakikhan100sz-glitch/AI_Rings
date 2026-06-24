@@ -38,18 +38,4 @@ Or tap **Demo Access** on the login screen.
 - Device screen with mock BLE scan & sync
 - Profile & settings with medical disclaimer (not a medical device)
 
-## Project structure
 
-```
-lib/
-├── app/           # App entry, routing
-├── core/          # Theme, models, mock repository, providers
-├── features/      # Auth, onboarding, dashboard, analytics, alerts, device, profile
-└── shared/        # Reusable widgets
-```
-
-## Next steps
-
-1. Replace `MockRepository` with a real API client (`/api/v1/`)
-2. Add `flutter_blue_plus` and GATT handlers when ring hardware spec is available
-3. Integrate Firebase push notifications and OAuth providers
